@@ -1,0 +1,27 @@
+.searchArea {
+  display: flex;
+  gap: 30px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  width: 800px;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  box-shadow: 3px 3px 3px rgb(225, 224, 224);
+}
+.searchArea .icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  transform: translate(-10%, 10%);
+  color: white;
+  background-color: #ff385c;
+  padding: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+}

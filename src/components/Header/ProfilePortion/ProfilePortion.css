@@ -1,0 +1,74 @@
+.profilePortion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.airbnb_home {
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.language_currency_icon {
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.profile_menu_icon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  height: 30px;
+  border: 1px solid gray;
+}
+.profile_menu_icon .menu,
+.profile_menu_icon .profile {
+  display: flex;
+  margin: 4px;
+}
+
+.language_currency_icon:hover,
+.airbnb_home:hover {
+  background-color: rgb(232, 228, 228);
+  cursor: pointer;
+}
+
+.profile_menu_icon .profile .icon {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 100%;
+  margin-left: 20px;
+}
+.profile_menu_icon .profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.profile_menu_icon .notification {
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid white;
+  right: -3px;
+  background-color: red;
+  top: -3px;
+  padding: 2.8px 7px;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 900;
+  transform: translateY(-50%);
+  justify-content: center;
+}
+
+.profile_menu_icon:hover {
+  box-shadow: 3px 3px 3px rgb(225, 224, 224);
+  cursor: pointer;
+}

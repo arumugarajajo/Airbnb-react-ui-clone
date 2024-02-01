@@ -1,0 +1,17 @@
+.where {
+  height: 100%;
+  width: 40%;
+}
+.where h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin-bottom: 1px;
+}
+.where input {
+  display: flex;
+  border: none;
+  outline: none;
+}
