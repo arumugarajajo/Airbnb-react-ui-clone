@@ -1,6 +1,7 @@
 .where {
   height: 100%;
   width: 40%;
+  position: relative;
 }
 .where h4 {
   margin-top: 10px;

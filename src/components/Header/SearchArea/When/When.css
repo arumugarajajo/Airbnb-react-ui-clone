@@ -1,9 +1,11 @@
 .when {
   height: 100%;
-  justify-content: start;
+  justify-content: center;
   width: 30%;
+  display: flex;
+  gap: 10px;
 }
-.when h4 {
+.when .checkin h4 {
   margin-top: 10px;
   font-size: 18px;
   display: flex;
@@ -11,8 +13,28 @@
   margin-bottom: 1px;
 }
 
-.when h5 {
+.when .checkin h5 {
   display: flex;
   font-size: 18px;
   margin-top: 0px;
+  color: gray;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.when .checkout h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.when .checkout h5 {
+  display: flex;
+  font-size: 18px;
+  color: gray;
+  font-weight: 200;
+  margin-top: 0px;
+  cursor: pointer;
 }

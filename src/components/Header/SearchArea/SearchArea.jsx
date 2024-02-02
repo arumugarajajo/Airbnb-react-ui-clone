@@ -12,7 +12,7 @@ function SearchArea() {
       <hr />
       <When />
       <hr />
-      <Who />
+      <Who className="who" />
       <FiSearch className="icon" />
     </div>
   );
